@@ -9,4 +9,28 @@ class Shape {
     return "Must be 3 Letters"
 };
 
+if (option === "Circle") {
+        render ()  {
+        return () => {
+            return `<circle>`
+        }
+    }
+}
+
+if (option === "Sqaure") {
+    render () {
+        return () => {
+            return `<square>`
+        }
+    }
+}
+
+if (option === "Triangle") {
+    render () {
+        return () =>  {
+            return `<triangle>`
+        }
+    }
+}
+
 module.exports = Shape;
