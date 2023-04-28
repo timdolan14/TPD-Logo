@@ -1,7 +1,7 @@
 // Establish Variables
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { text } = require('stream/consumers');
+// const { text } = require('stream/consumers');
 
 const questions = [
     {
@@ -28,7 +28,7 @@ const questions = [
     },
 ];
 
-const writeToFile = ({text, color, shape}) =>
+const writeToFile = ({text, color, textColor, shape}) =>
 `
 Shapes?
 
