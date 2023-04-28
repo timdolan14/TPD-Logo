@@ -22,7 +22,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'shape',
+        name: 'logoShape',
         message: 'What shape would you like?',
         choices: ['Square','Circle','Triangle'],
     },
@@ -33,6 +33,8 @@ const writeToFile = ({text, color, textColor, shape}) =>
 Shapes?
 
 `;
+
+function createShape ()
 
 
 // Function to Create File

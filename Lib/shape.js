@@ -10,27 +10,23 @@ class Shape {
 };
 
 if (option === "Circle") {
-        render ()  {
-        return () => {
-            return `<circle>`
+        render () = {
+            return: `<circle cx="25" cy="75" r="20"/>`
         }
     }
-}
+
 
 if (option === "Sqaure") {
-    render () {
-        return () => {
-            return `<square>`
-        }
+    render () = {
+            return: `<rect x="10" y="10" width="30" height="30"/>
+            <rect x="10" y="10" rx="10" ry="10" width="30" height="30"/>`
     }
 }
 
 if (option === "Triangle") {
-    render () {
-        return () =>  {
-            return `<triangle>`
+    render () = {
+            return: `<triangle>`
         }
     }
-}
 
 module.exports = Shape;
