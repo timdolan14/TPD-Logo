@@ -2,6 +2,8 @@
 
 ## Github Repo
 
+https://github.com/timdolan14/TPD-Logo-Generator
+
 ## Description 
 
 ## Usage
