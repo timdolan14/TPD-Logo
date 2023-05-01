@@ -1,6 +1,5 @@
-
 <svg xmls="http:/www.w3.org/2000/svg" width ="400" height="400" version="1.1">
-
-<Circle cx="150" cy="100" r= "80" fill="blue" />
-
-<text x="150" y="125" font-size="60" text-anchor="middle" fill="Green">YSL</text> </svg>
+        <svg height="500" width="500">
+    <polygon points="250,60 100,400 400,400" fill="blue" />
+        <text x="150" y="125" font-size="60" text-anchor="middle" fill="red">tpd</text> </svg>
+       

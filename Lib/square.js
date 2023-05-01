@@ -1,11 +1,11 @@
 const Shape = require("./shape");
 
 class square extends Shape {
-    constructor() {
-        render() = {
-            return: `<rect height="100" rx="100" ry="100" width="100" fill="${color}/>`
-        }
+    // constructor() {
+    // }
+    render() {
+        return `<rect height="100" x="100" y="100" width="100" fill="${this.color}"/>`
     }
 }
 
-module.exports = sqaure;
+module.exports = square;
