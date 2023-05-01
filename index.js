@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         name: 'text',
-        message: 'Enter up tp three characters here',
+        message: 'Enter up to three characters here',
 
     },
     {
@@ -28,12 +28,12 @@ const questions = [
     },
 ];
 
-const writeToFile = ({text, color, textColor, logoshape}) =>
+const writeToFile = ({text, color, textColor, logoShape}) =>
 
 `
 <svg xmls="http:/www.w3.org/2000/svg" width ="400" height="400" version="1.1">
 
-<${logoShape} x="90" y="40" width="120" height="120" fill="${color}" />
+<${logoShape} cx="150" cy="100" r= "80" fill="${color}" />
 
 <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text> </svg>
 `;
