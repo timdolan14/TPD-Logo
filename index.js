@@ -28,17 +28,26 @@ const questions = [
     },
 ];
 
-// const writeToFile = ({text, color, textColor, shape}) =>
-// `
-// Shapes?
+const writeToFile = ({text, color, textColor, shape}) =>
 
-// `;
+`
+<svg xmls="http:/www.w3.org/2000/svg" width ="400" height="400" version="1.1">
 
-function createShape ()
+<shape> 
 
+<text x="150" y="125" font-size="60" text-anchor="middle" fill="_COLOR_">__TEXT__</text>
+
+    ${Shape}
+    ${text}
+    ${textColor}
+    ${logoShape}
+    ${color}
+    
+    </svg>
+`;
 
 // Function to Create File
-function init () {
+function createShape () {
 inquirer.prompt(questions)
     .then((response) => {
         console.log(response);
@@ -49,4 +58,4 @@ inquirer.prompt(questions)
 }
 
 // Function call to initialize app
-init();
+createShape();
