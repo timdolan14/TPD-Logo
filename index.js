@@ -28,22 +28,14 @@ const questions = [
     },
 ];
 
-const writeToFile = ({text, color, textColor, shape}) =>
+const writeToFile = ({text, color, textColor, logoshape}) =>
 
 `
 <svg xmls="http:/www.w3.org/2000/svg" width ="400" height="400" version="1.1">
 
-<shape> 
+<${logoShape} x="90" y="40" width="120" height="120" fill="${color}" />
 
-<text x="150" y="125" font-size="60" text-anchor="middle" fill="_COLOR_">__TEXT__</text>
-
-    ${Shape}
-    ${text}
-    ${textColor}
-    ${logoShape}
-    ${color}
-    
-    </svg>
+<text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text> </svg>
 `;
 
 // Function to Create File
