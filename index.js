@@ -28,11 +28,11 @@ const questions = [
     },
 ];
 
-const writeToFile = ({text, color, textColor, shape}) =>
-`
-Shapes?
+// const writeToFile = ({text, color, textColor, shape}) =>
+// `
+// Shapes?
 
-`;
+// `;
 
 function createShape ()
 
