@@ -1,21 +1,9 @@
-const Shape = require("./shape")
+const Shape = require("./shape");
+const circle = require("./circle");
+const square = require("./square");
+const triangle = require("./triangle");
 
-const fullLogo = (Shape) => { `
-<svg xmls="http:/www.w3.org/2000/svg" width ="400" height="400" version="1.1">
-
-<shape> 
-
-<text x="150" y="125" font-size="60" text-anchor="middle" fill="_COLOR_">__TEXT__</text>
-
-    ${Shape}
-    ${text}
-    ${textColor}
-    ${logoShape}
-    ${color}
-    
-    </svg>
-`
+const fullLogo = (Shape) => { 
 }
-
 
 module.exports = {fullLogo};
