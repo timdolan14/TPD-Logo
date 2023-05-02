@@ -51,7 +51,7 @@ inquirer.prompt(questions)
         shape.setColor(response.color)
         const svg = new Svg(response.textColor, response.text, shape.render());
         fs.writeFile('logo.svg', svg.render(), (err) => {
-            err ? console.log(err) : console.log("Succcess");
+            err ? console.log(err) : console.log("Generated logo.svg");
         });
     })
 }
