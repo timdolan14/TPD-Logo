@@ -1,4 +1,3 @@
-const { describe } = require("node:test");
 const square = require("../Lib/square");
 
 describe("Square", () => {
