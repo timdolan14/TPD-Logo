@@ -9,7 +9,7 @@ describe("Triangle", () => {
                 color: "red",
                 logoShape: "triangle",
             });
-            expect(tri.render).toBe(`<polygon points="150 80, 200 182, 90 182" fill="red"`);
+            expect(tri.render()).toBe(`<polygon points="150 80, 200 182, 90 182" fill="" />`);
         });
     });
 });

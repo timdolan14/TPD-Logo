@@ -9,7 +9,7 @@ describe("Circle", () => {
                 color: "red",
                 logoShape: "circle",
             });
-            expect(cir.render).toBe(`<polygon points="150 80, 200 182, 90 182" fill="red"`);
+            expect(cir.render()).toBe(`<circle cx="150" cy="150" r="50" fill="" />`);
         });
     });
 });

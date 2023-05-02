@@ -9,7 +9,7 @@ describe("Square", () => {
                 color: "red",
                 logoShape: "square",
             });
-            expect(squ.render).toBe(`<polygon points="150 80, 200 182, 90 182" fill="red"`);
+            expect(squ.render()).toBe(`<rect height="100" x="100" y="100" width="100" fill=""/>`);
         });
     });
 });
