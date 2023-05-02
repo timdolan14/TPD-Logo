@@ -2,8 +2,8 @@ const Shape = require("./shape");
 
 class triangle extends Shape {
 render() {
-    return `<svg height="500" width="500">
-    <polygon points="100, 0, 0, 0, 50, 100" fill="${this.color}" />`
+    return `<svg viewBox= "0 0 100 100">
+    <polygon points="25, 10 75, 10 50, 90" fill="${this.color}" />`
 }
 };
 
