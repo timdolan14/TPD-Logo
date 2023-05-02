@@ -6,6 +6,7 @@ const Square = require("./Lib/square");
 const Triangle = require("./Lib/triangle");
 const Svg = require("./Lib/svg");
 
+// Establish Questions
 const questions = [
     {
         type: 'input',
@@ -56,5 +57,5 @@ inquirer.prompt(questions)
     })
 }
 
-// Function call to initialize app
+// Function call
 createShape();
